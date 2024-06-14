@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "485568541914",
+    "project_id": "mota-318ad",
+    "storage_bucket": "mota-318ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485568541914:android:4899eefd8531561e8061e3",
+        "android_client_info": {
+          "package_name": "com.example.mota"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXknIZm7AuXWHWEr1vqHhw8iiRVw5kfPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

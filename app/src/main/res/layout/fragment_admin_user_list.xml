@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:outlineSpotShadowColor="#FFFFFF"
+    tools:context=".AdminFragments.AdminUserList">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="228dp"
+        android:text="Users"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/add_user"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="154dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="#FFFFFF"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:text="+ Add User"
+        android:textColor="#74BD17" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

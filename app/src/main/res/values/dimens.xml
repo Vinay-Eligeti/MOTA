@@ -1,0 +1,6 @@
+<!-- res/values/dimens.xml -->
+<resources>
+    <dimen name="dialog_width">30dp</dimen>
+    <dimen name="dialog_height">10dp</dimen>
+    <dimen name="dialog_margin">1dp</dimen>
+</resources>

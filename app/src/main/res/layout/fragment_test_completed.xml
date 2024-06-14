@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".UserFragments.TestCompleted">
+
+    <TextView
+        android:id="@+id/exam_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Exam Name"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Q.1 Questions One"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="32dp">
+
+        <TextView
+            android:id="@+id/clear_selection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="3dp"
+            android:textColor="#CC000000"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/rounded_corners"
+            android:text="  1"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/rounded_corners"
+            android:text="  2"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/rounded_corners"
+            android:text="  3"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/rounded_corners"
+            android:text="  4"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/previous_btn"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="#4EA5D6"
+            android:text="Previous"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4EA5D6"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:backgroundTint="#4EA5D6"
+            android:text="Next"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/view_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Result"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</LinearLayout>

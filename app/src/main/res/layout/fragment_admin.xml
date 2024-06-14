@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Admin">
+
+    <LinearLayout
+        android:id="@+id/form_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabLayout"
+        android:layout_marginVertical="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email_admin_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded"
+            android:hint="Email-Id"
+            android:textColor="@color/black"
+            android:textColorHint="#7A7A7A"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/password_admin_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded"
+            android:hint="Password"
+            android:textColor="@color/black"
+            android:textColorHint="#7A7A7A"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textSize="20sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/login_admin_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Login"
+            android:textSize="16sp"
+            android:padding="16dp"
+            app:cornerRadius="15dp" />
+        <ProgressBar
+            android:id="@+id/progress_admin_bar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+</FrameLayout>
